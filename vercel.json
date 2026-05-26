@@ -1,8 +1,6 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
